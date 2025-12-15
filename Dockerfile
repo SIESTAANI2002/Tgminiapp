@@ -1,5 +1,5 @@
 # Use latest Python 3.12 slim image
-FROM python:3.12-slim
+FROM python:3.10-slim
 
 # Set working directory
 WORKDIR /usr/src/app
