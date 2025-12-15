@@ -1,18 +1,10 @@
-import os
-from flask import Flask
+from flask import Flask, send_from_directory
 
 app = Flask(__name__)
 
 @app.route("/")
 def home():
     return "Bot is running!"
-
-def run_web():
-    port = int(os.getenv("PORT", 8000))
-    app.run(host="0.0.0.0", port=port)
-
-
-from flask import send_from_directory
 
 @app.route("/app/")
 def miniapp():
