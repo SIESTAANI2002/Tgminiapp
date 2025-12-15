@@ -21,4 +21,4 @@ google-auth-httplib2
 google-auth-oauthlib
 pydrive2
 pyrofork==2.3.45
-\nflask\n
+flask
